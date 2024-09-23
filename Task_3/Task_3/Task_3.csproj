@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Task_3.Data\Task_3.Data.csproj" />
+    <ProjectReference Include="..\Task_3.Services\Task_3.Services.csproj" />
+  </ItemGroup>
+
 </Project>
